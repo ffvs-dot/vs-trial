@@ -1,7 +1,11 @@
 particlesJS("particles-js", {
   particles: {
+    shape:{ 
+      type: "image", 
+             image:{ src:"heart.png",width:"1", height:"1" }
+  },
     number: { value: 80 }, // Number of particles
-    size: { value: 3 },    // Size of particles
+    size: { value: 8 },    // Size of particles
     color: { value: "#ffffff" }, // Particle color
     line_linked: {
       enable: true,         // Enable lines between particles
@@ -20,6 +24,6 @@ particlesJS("particles-js", {
       onhover: { enable: true, mode: "repulse" }, // Repulse effect on hover
       onclick: { enable: true, mode: "push" }     // Push effect on click
     }
-  }
+  },
+ 
 });
-//haha

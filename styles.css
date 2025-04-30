@@ -16,7 +16,7 @@ body, html {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #0f0f0f;
+  background-color: #f1f7f8;
 }
 
 .hero {
@@ -26,9 +26,9 @@ body, html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: rgb(16, 14, 14);
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.4); /* Optional overlay */
+  background-color: rgba(245, 202, 202, 0.4); /* Optional overlay */
 }
 
 .hero-content h1 {
@@ -37,7 +37,7 @@ body, html {
 }
 
 .highlight {
-  color: #61dafb;
+  color: #870a44;
 }
 
 .hero-content p {
@@ -47,8 +47,8 @@ body, html {
 
 .cta {
   padding: 12px 24px;
-  background: #61dafb;
-  color: #000;
+  background: #870a44;
+  color: #f4f0f0;
   text-decoration: none;
   border-radius: 30px;
   font-weight: bold;
@@ -56,5 +56,5 @@ body, html {
 }
 
 .cta:hover {
-  transform: scale(1.05);
+  transform: scale(2);
 }
